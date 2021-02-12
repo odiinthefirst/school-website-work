@@ -1,0 +1,43 @@
+body {
+color: white;
+background: red;
+font-family:Helvetica;
+max-width: 500px;
+margin-right: auto;
+margin-left: auto;
+text-align: center;
+padding-bottom: 50px;
+}
+
+p {
+display: none;
+font-weight: bold;
+font-size: 24px;
+}
+
+p:nth-of-type(1) {
+display: block;
+}
+
+p span {
+display:block;
+text-align:center;
+padding:10px;
+margin:10px;
+border:1px white solid;
+}
+
+p span:hover {
+cursor: pointer;
+background: rgba(205,100,100,0.5);
+}
+
+em {
+position: fixed;
+bottom: 0px;
+left: 0px;
+font-size: 30px;
+padding: 10px 0px 20px 0px;
+width: 100%;
+background: red;
+}

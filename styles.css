@@ -25,12 +25,17 @@ body {
     background-color: antiquewhite;
   }
   ol {
-    color:red
+    color:rgb(85, 82, 255);
   }
   .github {
     color:chartreuse;
     background-color: black;
-        border: 2px solid chartreuse;
+    border: 2px solid chartreuse;
+    padding: 8px 16px;
   }
-  
- 
+  .quizpage {
+    color:#ff00ff;
+    background-color: white;
+    border: 2px solid #ff00ff;
+    padding: 8px 16px;
+  }
