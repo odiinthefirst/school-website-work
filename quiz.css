@@ -1,12 +1,18 @@
+@font-face {
+font-family: 'FuturaBT';
+    src: url('FuturaBT-BoldItalic.woff') format('woff'), 
+    url('Futura Bold Italic font.ttf') format('truetype'); 
+} 
+
 body {
-color: white;
-background: red;
-font-family:Helvetica;
+color: chartreuse;
+background: black;
 max-width: 500px;
 margin-right: auto;
 margin-left: auto;
 text-align: center;
 padding-bottom: 50px;
+font-family: 'FuturaBT';
 }
 
 p {
@@ -24,12 +30,13 @@ display:block;
 text-align:center;
 padding:10px;
 margin:10px;
-border:1px white solid;
+border:1px chartreuse;
 }
 
 p span:hover {
 cursor: pointer;
-background: rgba(205,100,100,0.5);
+background: rgba(255,255,255,0.5);
+color: black
 }
 
 em {
@@ -39,5 +46,5 @@ left: 0px;
 font-size: 30px;
 padding: 10px 0px 20px 0px;
 width: 100%;
-background: red;
+background: chartreuse;
 }
