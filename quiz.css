@@ -18,7 +18,11 @@ font-family: 'FuturaBT';
 p {
 display: none;
 font-weight: bold;
-font-size: 24px;
+font-size: 24px; 
+}
+
+.title {
+  text-decoration: underline;
 }
 
 p:nth-of-type(1) {
@@ -30,7 +34,7 @@ display:block;
 text-align:center;
 padding:10px;
 margin:10px;
-border:1px chartreuse;
+border:2px chartreuse solid;
 }
 
 p span:hover {
@@ -40,6 +44,7 @@ color: black
 }
 
 em {
+color: black;
 position: fixed;
 bottom: 0px;
 left: 0px;
