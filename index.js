@@ -1,3 +1,5 @@
+//THE HOLY SCRIPT HAIL THE JS
+
 var questionNumber = 1;
 var score = 0;
 

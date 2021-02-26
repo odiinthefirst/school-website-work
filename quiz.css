@@ -43,6 +43,15 @@ background: rgba(255,255,255,0.5);
 color: black
 }
 
+.image {
+  width: 100%;
+  height: auto;
+}
+p i {
+  font-size: 20px;
+  color: white
+}
+
 em {
 color: black;
 position: fixed;
